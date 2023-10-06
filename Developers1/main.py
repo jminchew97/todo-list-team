@@ -1,8 +1,14 @@
+incompleteTasks = []
+completeTasks = []
+
+
 def addTasks(task):
-    pass
+    incompleteTasks.append(task)
 
 def completeTasks(task):
-    pass
+    completeTasks.append(task)
 
 def deleteTasks(task):
-    pass
+    incompleteTasks.remove(task)
+
+print(addTasks(task))
